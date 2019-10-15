@@ -5,6 +5,7 @@
 <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="dist/css/app.css">
+<link rel="stylesheet" href="dist/css/magnific-popup.css">
 <body class="font-serif">
 <header class="p-6">
     <div class="flex container mx-auto px-4 justify-between">
@@ -83,17 +84,25 @@
             The website indeed need interactive approach . Therefore I used Modern Clip-path Technique with the help of Javascript and Css and animate most of the Elements inside the website.Overall Website looks amazing when its came to live. I got amazing feedback from the Project Manager and well as From the Owner.  Watch the below video to see in live action.
             <br>
         </p>
-        <div class="flex mt-3 justify-center items-center mb-3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/yg5PXGg4ARI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+
+        <a href="https://www.youtube.com/watch?v=sLHB9OxG-wM&" class="flex mt-3 justify-center items-center mb-3 video-container">
+            <img class="w-full  mt-5 mb-5 mx-3" src="dist/img/work/icmlk/VideoPlayer.jpg" alt="Videos">
+        </a>
 
     </div>
 
 
 
 </section>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="dist/js/TweenMax.min.js"></script>
 <script src="dist/js/app.js"></script>
+<script src="dist/js/jquery.magnific-popup.min.js"></script>
+<script>
+    $('.video-container').magnificPopup({
+        type: 'iframe',
+        // other options
+    });
+</script>
 </body>
 </html>
