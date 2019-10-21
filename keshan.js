@@ -22,7 +22,8 @@ module.exports = {
         greenunderline:'#80f9e2'
       },
       height:{
-        '160':'40rem'
+        '160':'40rem',
+        '104':'26rem'
       }
     }
   },
