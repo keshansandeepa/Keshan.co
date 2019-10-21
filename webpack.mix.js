@@ -16,6 +16,10 @@ require('laravel-mix-purgecss');
 mix.js('src/js/app.js', 'dist/js/').sass('src/css/app.scss', 'dist/css/app.css')  .options({
     processCssUrls: false,
     postCss: [ tailwindcss('keshan.js') ],
+
+}).purgeCss({
+    folders: ['dist'],
+    extensions: ['html', 'js', 'css'],
 });
 
 // Full API
