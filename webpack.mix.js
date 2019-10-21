@@ -18,6 +18,7 @@ mix.js('src/js/app.js', 'dist/js/').sass('src/css/app.scss', 'dist/css/app.css')
     postCss: [ tailwindcss('keshan.js') ],
 
 }).purgeCss({
+    enable:false,
     folders: ['dist'],
     extensions: ['html', 'js', 'css'],
 });
