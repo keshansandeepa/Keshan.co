@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>251723B0-8DF4-4AFF-A842-2DF1A851E847</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="20"></rect>
+        <filter x="-56.2%" y="-56.2%" width="212.5%" height="212.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.211899909 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Responsive-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Browse---Course---Video" transform="translate(-2.000000, -63.000000)">
+            <g id="Group-11" transform="translate(17.000000, 78.000000)">
+                <g id="Group-10">
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M23.578857,14.4981043 C24.8559742,13.1618037 22.9399214,11.0962073 21.6628041,12.4324067 L15.391966,18.9938438 C14.8693447,19.5406842 14.8693447,20.4518285 15.391966,20.9986891 L21.6628041,27.5601262 C22.9399214,28.896426 24.8560322,26.8915814 23.578857,25.4944267 L18.2952206,20.0268322 L23.578857,14.4981043 Z" id="Fill-1" fill="#222222"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
