@@ -50,10 +50,19 @@
 </header>
 
 <section class="container mx-auto px-4 overflow-hidden mt-16">
-    <div class="flex items-start flex-col">
-       <h3 class="text-3xl lg:w-3/5  xl:w-2/5 font-bold mb-4 ">I'm Keshan Sandeepa,a Web Developer based in Sri Lanka.</h3>
-        <p class="text-base lg:w-3/5 xl:w-2/6 text-justify mt-2 mb-4 ">I enjoy crafting digital experiences through design and code. I specialize in UI/UX design and front-end web development, focusing on turning ideas into delightful and meaningful solutions.</p>
-        <h4 class="text-lg lg:w-3/5 xl:w-2/6 font-bold mt-2 mb-4 upp text-gray-900">The Are the few things I've Designed and Developed: </h4>
+    <div class="flex flex-col-reverse items-center justify-around md:flex-row">
+        <div class="w-full md:w-1/2">
+            <h3 class="text-3xl  font-bold mb-4 ">I'm Keshan Sandeepa,a Web Developer based in Sri Lanka.</h3>
+            <p class="text-base text-justify mt-2 mb-4 ">I enjoy crafting digital experiences through design and code. I specialize in UI/UX design and front-end web development, focusing on turning ideas into delightful and meaningful solutions.</p>
+            <h4 class="text-lg font-bold mt-2 mb-4 upp text-gray-900">The Are the few things I've Designed and Developed: </h4>
+        </div>
+
+        <div class="w-full md:w-1/2 flex justify-center items-center">
+            <div class="w-full mb-10 md:mb-0 md:w-1/2 justify-center items-center  relative inline-flex" id="keshan">
+            </div>
+
+        </div>
+
     </div>
 
 </section>
@@ -115,7 +124,19 @@
         </div>
     </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>
 <script src="js/TweenMax.min.js"></script>
 <script src="js/app.js"></script>
+<script>
+    var animation = bodymovin.loadAnimation({
+        container: document.getElementById('keshan'),
+        path: 'js/data.json',
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        name: "kESHAN"
+    });
+
+</script>
 </body>
 </html>
